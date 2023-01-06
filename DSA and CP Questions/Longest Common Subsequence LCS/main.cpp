@@ -43,7 +43,7 @@ int lis(char* s1,char*s2,int m,int n){
     
     for(int i=0;i>=0;i--){
         for(int j=0;j>=0;j--){
-            
+        dsfsdf
             if(s1[i]==s2[j])
             
         }
