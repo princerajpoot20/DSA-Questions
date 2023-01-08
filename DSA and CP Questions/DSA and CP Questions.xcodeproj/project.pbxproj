@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		018823D1296AB7A800FE85BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018823D0296AB7A800FE85BA /* main.cpp */; };
 		01AD53EA2968B08500BC176E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AD53E92968B08500BC176E /* main.cpp */; };
 		01AD53F72968B0AC00BC176E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AD53F62968B0AC00BC176E /* main.cpp */; };
 		01AD54032968B14E00BC176E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AD54022968B14E00BC176E /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		018823CC296AB7A800FE85BA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		01AD53E42968B08500BC176E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,6 +53,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		018823CE296AB7A800FE85BA /* Edit Distance Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Edit Distance Leetcode"; sourceTree = BUILT_PRODUCTS_DIR; };
+		018823D0296AB7A800FE85BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		01AD53E62968B08500BC176E /* DSA and CP Questions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DSA and CP Questions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AD53E92968B08500BC176E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		01AD53F42968B0AC00BC176E /* Longest Common Subsequence LCS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Longest Common Subsequence LCS"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +65,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		018823CB296AB7A800FE85BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		01AD53E32968B08500BC176E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,12 +96,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		018823CF296AB7A800FE85BA /* Edit Distance Leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				018823D0296AB7A800FE85BA /* main.cpp */,
+			);
+			path = "Edit Distance Leetcode";
+			sourceTree = "<group>";
+		};
 		01AD53DD2968B08500BC176E = {
 			isa = PBXGroup;
 			children = (
 				01AD53E82968B08500BC176E /* DSA and CP Questions */,
 				01AD53F52968B0AC00BC176E /* Longest Common Subsequence LCS */,
 				01AD54012968B14E00BC176E /* t1 */,
+				018823CF296AB7A800FE85BA /* Edit Distance Leetcode */,
 				01AD53E72968B08500BC176E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,6 +121,7 @@
 				01AD53E62968B08500BC176E /* DSA and CP Questions */,
 				01AD53F42968B0AC00BC176E /* Longest Common Subsequence LCS */,
 				01AD54002968B14E00BC176E /* t1 */,
+				018823CE296AB7A800FE85BA /* Edit Distance Leetcode */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +154,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		018823CD296AB7A800FE85BA /* Edit Distance Leetcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018823D4296AB7A800FE85BA /* Build configuration list for PBXNativeTarget "Edit Distance Leetcode" */;
+			buildPhases = (
+				018823CA296AB7A800FE85BA /* Sources */,
+				018823CB296AB7A800FE85BA /* Frameworks */,
+				018823CC296AB7A800FE85BA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Edit Distance Leetcode";
+			productName = "Edit Distance Leetcode";
+			productReference = 018823CE296AB7A800FE85BA /* Edit Distance Leetcode */;
+			productType = "com.apple.product-type.tool";
+		};
 		01AD53E52968B08500BC176E /* DSA and CP Questions */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01AD53ED2968B08500BC176E /* Build configuration list for PBXNativeTarget "DSA and CP Questions" */;
@@ -185,6 +231,9 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					018823CD296AB7A800FE85BA = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					01AD53E52968B08500BC176E = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -212,11 +261,20 @@
 				01AD53E52968B08500BC176E /* DSA and CP Questions */,
 				01AD53F32968B0AC00BC176E /* Longest Common Subsequence LCS */,
 				01AD53FF2968B14E00BC176E /* t1 */,
+				018823CD296AB7A800FE85BA /* Edit Distance Leetcode */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		018823CA296AB7A800FE85BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018823D1296AB7A800FE85BA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		01AD53E22968B08500BC176E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -244,6 +302,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		018823D2296AB7A800FE85BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC52D49Q6X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		018823D3296AB7A800FE85BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC52D49Q6X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		01AD53EB2968B08500BC176E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -416,6 +494,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		018823D4296AB7A800FE85BA /* Build configuration list for PBXNativeTarget "Edit Distance Leetcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018823D2296AB7A800FE85BA /* Debug */,
+				018823D3296AB7A800FE85BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		01AD53E12968B08500BC176E /* Build configuration list for PBXProject "DSA and CP Questions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

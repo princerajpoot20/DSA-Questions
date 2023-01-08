@@ -4,7 +4,7 @@
 
 //----------------PRINCE RAJPOOT----------------//
 //----------------------------------------------/ /
-//#include<bits/stdc++.h>
+#include<bits/stdc++.h>
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -29,47 +29,34 @@ using namespace std;
 #include <map>
 //----------------------------------------------//
 
-int lcs(char *s1, char *s2, int m, int n) {
+int edit_distance(char *s1, char *s2, int m, int n) {
 
-  int dp[m][n];
+  int dp[m+1][n+1];
 
-  for (int i = 0; i < n; i++) {
+  for (int i = 0; i <= n; i++) {
 
-    if (s1[0] == s2[i]) {
-      dp[0][i] = 1;
-    } else {
-      dp[0][i] = 0;
-    }
+
+      dp[0][i] = i;
   }
-  for (int i = 0; i < m; i++) {
-    if (s2[0] == s1[i]) {
-      dp[i][0] = 1;
-    } else {
-      dp[i][0] = 0;
-    }
-  }
+  for (int i = 0; i <= m; i++) {
 
-  for (int i = 1; i < m; i++) {
-    for (int j = 1; j < n; j++) {
-
-      if (s1[i] == s2[j]) {
-        dp[i][j] = dp[i - 1][j - 1] + 1;
-      } else {
-          dp[i][j] = max(dp[i - 1][j], max( dp[i][j - 1] , dp[i-1][j-1]));
-      }
-    }
-  }
-   
-    for (int i = 0; i < m; i++) {
-      for (int j = 0; j < n; j++) {
-
-          cout<<dp[i][j]<<"   ";
-      }
-        cout<<endl;
-        cout<<endl;
-    }
+      dp[i][0] = i;
     
-  return dp[m - 1][n - 1];
+  }
+
+  for (int i = 1; i <= m; i++) {
+    for (int j = 1; j <= n; j++) {
+
+        if(s1[i-1]==s2[j-1]){
+            dp[i][j]=dp[i-1][j-1];
+        } else {
+          dp[i][j] = 1 + min(dp[i - 1][j - 1], min(dp[i][j - 1], dp[i - 1][j]));
+        }
+    }
+}
+
+
+    return dp[m][n];
 }
 
 void solve() {
@@ -81,7 +68,7 @@ void solve() {
   cin >> s2;
   int m = strlen(s1);
   int n = strlen(s2);
-  cout << lcs(s1, s2, m, n) << endl;
+  cout << edit_distance(s1, s2, m, n) << endl;
 }
 
 int main() {
