@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		018823D1296AB7A800FE85BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018823D0296AB7A800FE85BA /* main.cpp */; };
+		018823DC296AB82700FE85BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018823DB296AB82700FE85BA /* main.cpp */; };
+		018823E7296B054000FE85BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018823E6296B054000FE85BA /* main.cpp */; };
 		01AD53EA2968B08500BC176E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AD53E92968B08500BC176E /* main.cpp */; };
 		01AD53F72968B0AC00BC176E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AD53F62968B0AC00BC176E /* main.cpp */; };
 		01AD54032968B14E00BC176E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AD54022968B14E00BC176E /* main.cpp */; };
@@ -15,6 +17,24 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		018823CC296AB7A800FE85BA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		018823D7296AB82700FE85BA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		018823E2296B053F00FE85BA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -55,6 +75,10 @@
 /* Begin PBXFileReference section */
 		018823CE296AB7A800FE85BA /* Edit Distance Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Edit Distance Leetcode"; sourceTree = BUILT_PRODUCTS_DIR; };
 		018823D0296AB7A800FE85BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		018823D9296AB82700FE85BA /* Knapsnack DP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Knapsnack DP"; sourceTree = BUILT_PRODUCTS_DIR; };
+		018823DB296AB82700FE85BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		018823E4296B053F00FE85BA /* Prime Number between 1 to N */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Prime Number between 1 to N"; sourceTree = BUILT_PRODUCTS_DIR; };
+		018823E6296B054000FE85BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		01AD53E62968B08500BC176E /* DSA and CP Questions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DSA and CP Questions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AD53E92968B08500BC176E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		01AD53F42968B0AC00BC176E /* Longest Common Subsequence LCS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Longest Common Subsequence LCS"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +90,20 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		018823CB296AB7A800FE85BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018823D6296AB82700FE85BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018823E1296B053F00FE85BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -104,6 +142,22 @@
 			path = "Edit Distance Leetcode";
 			sourceTree = "<group>";
 		};
+		018823DA296AB82700FE85BA /* Knapsnack DP */ = {
+			isa = PBXGroup;
+			children = (
+				018823DB296AB82700FE85BA /* main.cpp */,
+			);
+			path = "Knapsnack DP";
+			sourceTree = "<group>";
+		};
+		018823E5296B054000FE85BA /* Prime Number between 1 to N */ = {
+			isa = PBXGroup;
+			children = (
+				018823E6296B054000FE85BA /* main.cpp */,
+			);
+			path = "Prime Number between 1 to N";
+			sourceTree = "<group>";
+		};
 		01AD53DD2968B08500BC176E = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +165,8 @@
 				01AD53F52968B0AC00BC176E /* Longest Common Subsequence LCS */,
 				01AD54012968B14E00BC176E /* t1 */,
 				018823CF296AB7A800FE85BA /* Edit Distance Leetcode */,
+				018823DA296AB82700FE85BA /* Knapsnack DP */,
+				018823E5296B054000FE85BA /* Prime Number between 1 to N */,
 				01AD53E72968B08500BC176E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,6 +178,8 @@
 				01AD53F42968B0AC00BC176E /* Longest Common Subsequence LCS */,
 				01AD54002968B14E00BC176E /* t1 */,
 				018823CE296AB7A800FE85BA /* Edit Distance Leetcode */,
+				018823D9296AB82700FE85BA /* Knapsnack DP */,
+				018823E4296B053F00FE85BA /* Prime Number between 1 to N */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,6 +227,40 @@
 			name = "Edit Distance Leetcode";
 			productName = "Edit Distance Leetcode";
 			productReference = 018823CE296AB7A800FE85BA /* Edit Distance Leetcode */;
+			productType = "com.apple.product-type.tool";
+		};
+		018823D8296AB82700FE85BA /* Knapsnack DP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018823DD296AB82700FE85BA /* Build configuration list for PBXNativeTarget "Knapsnack DP" */;
+			buildPhases = (
+				018823D5296AB82700FE85BA /* Sources */,
+				018823D6296AB82700FE85BA /* Frameworks */,
+				018823D7296AB82700FE85BA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Knapsnack DP";
+			productName = "Knapsnack DP";
+			productReference = 018823D9296AB82700FE85BA /* Knapsnack DP */;
+			productType = "com.apple.product-type.tool";
+		};
+		018823E3296B053F00FE85BA /* Prime Number between 1 to N */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018823E8296B054000FE85BA /* Build configuration list for PBXNativeTarget "Prime Number between 1 to N" */;
+			buildPhases = (
+				018823E0296B053F00FE85BA /* Sources */,
+				018823E1296B053F00FE85BA /* Frameworks */,
+				018823E2296B053F00FE85BA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prime Number between 1 to N";
+			productName = "Prime Number between 1 to N";
+			productReference = 018823E4296B053F00FE85BA /* Prime Number between 1 to N */;
 			productType = "com.apple.product-type.tool";
 		};
 		01AD53E52968B08500BC176E /* DSA and CP Questions */ = {
@@ -234,6 +326,12 @@
 					018823CD296AB7A800FE85BA = {
 						CreatedOnToolsVersion = 14.2;
 					};
+					018823D8296AB82700FE85BA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					018823E3296B053F00FE85BA = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					01AD53E52968B08500BC176E = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -262,6 +360,8 @@
 				01AD53F32968B0AC00BC176E /* Longest Common Subsequence LCS */,
 				01AD53FF2968B14E00BC176E /* t1 */,
 				018823CD296AB7A800FE85BA /* Edit Distance Leetcode */,
+				018823D8296AB82700FE85BA /* Knapsnack DP */,
+				018823E3296B053F00FE85BA /* Prime Number between 1 to N */,
 			);
 		};
 /* End PBXProject section */
@@ -272,6 +372,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				018823D1296AB7A800FE85BA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018823D5296AB82700FE85BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018823DC296AB82700FE85BA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018823E0296B053F00FE85BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018823E7296B054000FE85BA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +429,46 @@
 			name = Debug;
 		};
 		018823D3296AB7A800FE85BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC52D49Q6X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		018823DE296AB82700FE85BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC52D49Q6X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		018823DF296AB82700FE85BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC52D49Q6X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		018823E9296B054000FE85BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC52D49Q6X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		018823EA296B054000FE85BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +655,24 @@
 			buildConfigurations = (
 				018823D2296AB7A800FE85BA /* Debug */,
 				018823D3296AB7A800FE85BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018823DD296AB82700FE85BA /* Build configuration list for PBXNativeTarget "Knapsnack DP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018823DE296AB82700FE85BA /* Debug */,
+				018823DF296AB82700FE85BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018823E8296B054000FE85BA /* Build configuration list for PBXNativeTarget "Prime Number between 1 to N" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018823E9296B054000FE85BA /* Debug */,
+				018823EA296B054000FE85BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,10 +14,20 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>Knapsnack DP.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>Longest Common Subsequence LCS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>Prime Number between 1 to N.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>t1.xcscheme_^#shared#^_</key>
 		<dict>
