@@ -11,6 +11,8 @@
 		018823DC296AB82700FE85BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018823DB296AB82700FE85BA /* main.cpp */; };
 		018823E7296B054000FE85BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018823E6296B054000FE85BA /* main.cpp */; };
 		018823F2296B3F0B00FE85BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018823F1296B3F0B00FE85BA /* main.cpp */; };
+		018823FD296F020F00FE85BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018823FC296F020F00FE85BA /* main.cpp */; };
+		018824082984493500FE85BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018824072984493500FE85BA /* main.cpp */; };
 		01AD53EA2968B08500BC176E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AD53E92968B08500BC176E /* main.cpp */; };
 		01AD53F72968B0AC00BC176E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AD53F62968B0AC00BC176E /* main.cpp */; };
 		01AD54032968B14E00BC176E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AD54022968B14E00BC176E /* main.cpp */; };
@@ -45,6 +47,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		018823ED296B3F0B00FE85BA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		018823F8296F020F00FE85BA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		018824032984493500FE85BA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -91,6 +111,10 @@
 		018823E6296B054000FE85BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		018823EF296B3F0B00FE85BA /* Sieve of Eratosthenes (Finding Count of Prime Number between 1 to N in Optimal way) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sieve of Eratosthenes (Finding Count of Prime Number between 1 to N in Optimal way)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		018823F1296B3F0B00FE85BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		018823FA296F020F00FE85BA /* Codechef Contest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Codechef Contest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		018823FC296F020F00FE85BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		018824052984493500FE85BA /* test.cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test.cpp; sourceTree = BUILT_PRODUCTS_DIR; };
+		018824072984493500FE85BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		01AD53E62968B08500BC176E /* DSA and CP Questions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DSA and CP Questions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AD53E92968B08500BC176E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		01AD53F42968B0AC00BC176E /* Longest Common Subsequence LCS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Longest Common Subsequence LCS"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +147,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		018823EC296B3F0B00FE85BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018823F7296F020F00FE85BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018824022984493500FE85BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -185,6 +223,22 @@
 			path = "Sieve of Eratosthenes (Finding Count of Prime Number between 1 to N in Optimal way)";
 			sourceTree = "<group>";
 		};
+		018823FB296F020F00FE85BA /* Codechef Contest */ = {
+			isa = PBXGroup;
+			children = (
+				018823FC296F020F00FE85BA /* main.cpp */,
+			);
+			path = "Codechef Contest";
+			sourceTree = "<group>";
+		};
+		018824062984493500FE85BA /* test.cpp */ = {
+			isa = PBXGroup;
+			children = (
+				018824072984493500FE85BA /* main.cpp */,
+			);
+			path = test.cpp;
+			sourceTree = "<group>";
+		};
 		01AD53DD2968B08500BC176E = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +249,8 @@
 				018823DA296AB82700FE85BA /* Knapsnack DP */,
 				018823E5296B054000FE85BA /* Prime Number between 1 to N */,
 				018823F0296B3F0B00FE85BA /* Sieve of Eratosthenes (Finding Count of Prime Number between 1 to N in Optimal way) */,
+				018823FB296F020F00FE85BA /* Codechef Contest */,
+				018824062984493500FE85BA /* test.cpp */,
 				01AD53E72968B08500BC176E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -209,6 +265,8 @@
 				018823D9296AB82700FE85BA /* Knapsnack DP */,
 				018823E4296B053F00FE85BA /* Prime Number between 1 to N */,
 				018823EF296B3F0B00FE85BA /* Sieve of Eratosthenes (Finding Count of Prime Number between 1 to N in Optimal way) */,
+				018823FA296F020F00FE85BA /* Codechef Contest */,
+				018824052984493500FE85BA /* test.cpp */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -309,6 +367,40 @@
 			productReference = 018823EF296B3F0B00FE85BA /* Sieve of Eratosthenes (Finding Count of Prime Number between 1 to N in Optimal way) */;
 			productType = "com.apple.product-type.tool";
 		};
+		018823F9296F020F00FE85BA /* Codechef Contest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018823FE296F020F00FE85BA /* Build configuration list for PBXNativeTarget "Codechef Contest" */;
+			buildPhases = (
+				018823F6296F020F00FE85BA /* Sources */,
+				018823F7296F020F00FE85BA /* Frameworks */,
+				018823F8296F020F00FE85BA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Codechef Contest";
+			productName = "Codechef Contest";
+			productReference = 018823FA296F020F00FE85BA /* Codechef Contest */;
+			productType = "com.apple.product-type.tool";
+		};
+		018824042984493500FE85BA /* test.cpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018824092984493500FE85BA /* Build configuration list for PBXNativeTarget "test.cpp" */;
+			buildPhases = (
+				018824012984493500FE85BA /* Sources */,
+				018824022984493500FE85BA /* Frameworks */,
+				018824032984493500FE85BA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test.cpp;
+			productName = test.cpp;
+			productReference = 018824052984493500FE85BA /* test.cpp */;
+			productType = "com.apple.product-type.tool";
+		};
 		01AD53E52968B08500BC176E /* DSA and CP Questions */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01AD53ED2968B08500BC176E /* Build configuration list for PBXNativeTarget "DSA and CP Questions" */;
@@ -381,6 +473,12 @@
 					018823EE296B3F0B00FE85BA = {
 						CreatedOnToolsVersion = 14.2;
 					};
+					018823F9296F020F00FE85BA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					018824042984493500FE85BA = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					01AD53E52968B08500BC176E = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -412,6 +510,8 @@
 				018823D8296AB82700FE85BA /* Knapsnack DP */,
 				018823E3296B053F00FE85BA /* Prime Number between 1 to N */,
 				018823EE296B3F0B00FE85BA /* Sieve of Eratosthenes (Finding Count of Prime Number between 1 to N in Optimal way) */,
+				018823F9296F020F00FE85BA /* Codechef Contest */,
+				018824042984493500FE85BA /* test.cpp */,
 			);
 		};
 /* End PBXProject section */
@@ -446,6 +546,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				018823F2296B3F0B00FE85BA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018823F6296F020F00FE85BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018823FD296F020F00FE85BA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018824012984493500FE85BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018824082984493500FE85BA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,6 +663,46 @@
 			name = Debug;
 		};
 		018823F5296B3F0B00FE85BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC52D49Q6X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		018823FF296F020F00FE85BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC52D49Q6X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01882400296F020F00FE85BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC52D49Q6X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0188240A2984493500FE85BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC52D49Q6X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0188240B2984493500FE85BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -760,6 +916,24 @@
 			buildConfigurations = (
 				018823F4296B3F0B00FE85BA /* Debug */,
 				018823F5296B3F0B00FE85BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018823FE296F020F00FE85BA /* Build configuration list for PBXNativeTarget "Codechef Contest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018823FF296F020F00FE85BA /* Debug */,
+				01882400296F020F00FE85BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018824092984493500FE85BA /* Build configuration list for PBXNativeTarget "test.cpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0188240A2984493500FE85BA /* Debug */,
+				0188240B2984493500FE85BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
