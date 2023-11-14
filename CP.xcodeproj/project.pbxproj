@@ -18,6 +18,7 @@
 		014C0BF128B7DC6700DE3CB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 014C0BF028B7DC6700DE3CB0 /* main.cpp */; };
 		014FBB7628D33262009F8BE3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 014FBB7528D33262009F8BE3 /* main.cpp */; };
 		014FBB8128DB4B0B009F8BE3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 014FBB8028DB4B0B009F8BE3 /* main.cpp */; };
+		01609BBD2B0400C20047ECD9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01609BBC2B0400C20047ECD9 /* main.cpp */; };
 		016D62DE28F5C44F00BA18E2 /* prince.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 016D62DC28F5C44F00BA18E2 /* prince.cpp */; };
 		0188241329C2148100FE85BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0188241229C2148100FE85BA /* main.cpp */; };
 		018893DD288B598B0068AE46 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018893DC288B598B0068AE46 /* main.cpp */; };
@@ -124,6 +125,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		01609BB82B0400C20047ECD9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		0188240E29C2148100FE85BA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -177,6 +187,8 @@
 		014FBB7528D33262009F8BE3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		014FBB7E28DB4B0B009F8BE3 /* temp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = temp; sourceTree = BUILT_PRODUCTS_DIR; };
 		014FBB8028DB4B0B009F8BE3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		01609BBA2B0400C20047ECD9 /* DP-01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DP-01"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01609BBC2B0400C20047ECD9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		016D62DC28F5C44F00BA18E2 /* prince.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = prince.cpp; path = ../../../Desktop/prince.cpp; sourceTree = "<group>"; };
 		016D62DD28F5C44F00BA18E2 /* prince.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = prince.hpp; path = ../../../Desktop/prince.hpp; sourceTree = "<group>"; };
 		0188241029C2148100FE85BA /* CP Question */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CP Question"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -265,6 +277,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		01609BB72B0400C20047ECD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0188240D29C2148100FE85BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,6 +326,7 @@
 				014FBB7428D33262009F8BE3 /* Merge Sort */,
 				014FBB7F28DB4B0B009F8BE3 /* temp */,
 				0188241129C2148100FE85BA /* CP Question */,
+				01609BBB2B0400C20047ECD9 /* DP-01 */,
 				0122D8A82857AC9D001DC963 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -328,6 +348,7 @@
 				014FBB7328D33262009F8BE3 /* Merge Sort */,
 				014FBB7E28DB4B0B009F8BE3 /* temp */,
 				0188241029C2148100FE85BA /* CP Question */,
+				01609BBA2B0400C20047ECD9 /* DP-01 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -412,6 +433,14 @@
 				014FBB8028DB4B0B009F8BE3 /* main.cpp */,
 			);
 			path = temp;
+			sourceTree = "<group>";
+		};
+		01609BBB2B0400C20047ECD9 /* DP-01 */ = {
+			isa = PBXGroup;
+			children = (
+				01609BBC2B0400C20047ECD9 /* main.cpp */,
+			);
+			path = "DP-01";
 			sourceTree = "<group>";
 		};
 		0188241129C2148100FE85BA /* CP Question */ = {
@@ -628,6 +657,23 @@
 			productReference = 014FBB7E28DB4B0B009F8BE3 /* temp */;
 			productType = "com.apple.product-type.tool";
 		};
+		01609BB92B0400C20047ECD9 /* DP-01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01609BBE2B0400C20047ECD9 /* Build configuration list for PBXNativeTarget "DP-01" */;
+			buildPhases = (
+				01609BB62B0400C20047ECD9 /* Sources */,
+				01609BB72B0400C20047ECD9 /* Frameworks */,
+				01609BB82B0400C20047ECD9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DP-01";
+			productName = "DP-01";
+			productReference = 01609BBA2B0400C20047ECD9 /* DP-01 */;
+			productType = "com.apple.product-type.tool";
+		};
 		0188240F29C2148100FE85BA /* CP Question */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0188241629C2148100FE85BA /* Build configuration list for PBXNativeTarget "CP Question" */;
@@ -686,7 +732,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					0122D8A62857AC9D001DC963 = {
 						CreatedOnToolsVersion = 13.4;
@@ -720,6 +766,9 @@
 					};
 					014FBB7D28DB4B0B009F8BE3 = {
 						CreatedOnToolsVersion = 13.4.1;
+					};
+					01609BB92B0400C20047ECD9 = {
+						CreatedOnToolsVersion = 15.0;
 					};
 					0188240F29C2148100FE85BA = {
 						CreatedOnToolsVersion = 14.2;
@@ -759,6 +808,7 @@
 				014FBB7228D33262009F8BE3 /* Merge Sort */,
 				014FBB7D28DB4B0B009F8BE3 /* temp */,
 				0188240F29C2148100FE85BA /* CP Question */,
+				01609BB92B0400C20047ECD9 /* DP-01 */,
 			);
 		};
 /* End PBXProject section */
@@ -853,6 +903,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		01609BB62B0400C20047ECD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01609BBD2B0400C20047ECD9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0188240C29C2148100FE85BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -913,9 +971,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -971,9 +1031,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -993,6 +1055,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1001,6 +1064,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1009,6 +1073,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1017,6 +1082,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1025,6 +1091,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1033,6 +1100,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1041,6 +1109,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1049,6 +1118,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1057,6 +1127,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1065,6 +1136,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1073,6 +1145,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1081,6 +1154,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1089,6 +1163,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1097,6 +1172,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1105,6 +1181,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1113,6 +1190,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1121,6 +1199,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1129,6 +1208,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1137,6 +1217,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1145,6 +1226,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1153,6 +1235,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1161,6 +1244,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01609BBF2B0400C20047ECD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC52D49Q6X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01609BC02B0400C20047ECD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC52D49Q6X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1170,6 +1284,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = FC52D49Q6X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -1182,6 +1297,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = FC52D49Q6X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -1193,6 +1309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1201,6 +1318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1209,6 +1327,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1217,6 +1336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1328,6 +1448,15 @@
 			buildConfigurations = (
 				014FBB8328DB4B0B009F8BE3 /* Debug */,
 				014FBB8428DB4B0B009F8BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01609BBE2B0400C20047ECD9 /* Build configuration list for PBXNativeTarget "DP-01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01609BBF2B0400C20047ECD9 /* Debug */,
+				01609BC02B0400C20047ECD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
